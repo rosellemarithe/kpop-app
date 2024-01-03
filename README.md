@@ -1,1 +1,2 @@
-# kpop-app
+"# korean-pop-app" 
+"# kpop-web" 

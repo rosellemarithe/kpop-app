@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROSE SHOPE</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <ul>
+        <li><a href="first.html">Home</a></li>
+        <li><a href="pre-orders.html">Pre-Order</a></li>
+        <li><a class="active" href="orderform.html">Order Form</a></li>
+    </ul>
+    <div class="container">
+        <div class="header-container" id="header">
+            <p class="header-caption">Order Form</p>
+        </div>
+        <div class="body-container">
+            <div class="field-container" id="fullname-field">
+                <div>
+                    <label for="fullname" id="username-caption">Name: </label>
+                    <input type="text" id="fullname", placeholder="Last Name, First Name, Middle Name" required />
+                </div>
+            </div>
+            <div class="field-container" id="contact-field">
+                <div></div>
+                <label for="contact" id="contact-caption">Contact Number: </label>
+                <input type="text" id="contact" required />
+                <div></div>
+            </div>
+            <div class="field-container" id="email-field">
+                <div></div>
+                <label for="email" id="email-caption">Email: </label>
+                <input type="text" id="email", placeholder="roselle.mariano@email.com" required />
+            </div>
+            <div class="field-container" id="product-selection-field">
+                <div></div>
+                <label for="product" id="selection-caption">Product Selection: </label>
+                <select id="product" required>
+                    <option value="blackpink">Blackpink The Game Photocard Collection Christmas Edition</option>
+                    <option value="twice">Twice 2024 Season's Greetings [Twice News Room]</option>
+                </select>
+                <label for="quantity" id="quantity-caption">Quantity: </label>
+                <input type="number" id="quantity" min="1" value="1" required />
+            </div>
+
+        </div>
+        <a href="Sentanemail.html">
+            <button type="submit">Submit Order</button>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>
